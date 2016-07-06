@@ -35,9 +35,9 @@ define ('__ENV', "LOCAL");
 if(__ENV=="PRODUCTION"){
 
 	define ('__WEB_ROOT', "");
-	define ('__APPLICATION_NAME', "Velvet Fitting");
+	define ('__APPLICATION_NAME', "Technocratz4u");
 	
-	define ('__SERVER_NAME', ""); // to be changed during deployment
+	define ('__SERVER_NAME', "technocratz4u-admspre.rhcloud.com"); // to be changed during deployment
 	define ('__APPLICATION_URL', "http://www.".__SERVER_NAME.__WEB_ROOT);
 	
 	define ('__ORDER_STATUS_CREATED', "CREATED");
@@ -49,7 +49,7 @@ if(__ENV=="PRODUCTION"){
 	define ('__APP_DB_HOST', "localhost");
 	define ('__APP_DB_USER', "root");
 	define ('__APP_DB_PSWD', "root");
-	define ('__APP_SCHEMA', "velvet_db");
+	define ('__APP_SCHEMA', "technocratz");
 	/******************************************************************/
 	
 	/********************** Mailing Constants ************************/
@@ -74,7 +74,7 @@ if(__ENV=="PRODUCTION"){
 	
 } else {
 	define ('__WEB_ROOT', "");
-	define ('__APPLICATION_NAME', "Velvet Fitting");
+	define ('__APPLICATION_NAME', "Technocratz4u");
 	
 	define ('__SERVER_NAME', "ubuntu-vbox"); // to be changed during deployment
 	define ('__APPLICATION_URL', "http://".__SERVER_NAME.__WEB_ROOT);
@@ -88,7 +88,7 @@ if(__ENV=="PRODUCTION"){
 	define ('__APP_DB_HOST', "localhost");
 	define ('__APP_DB_USER', "root");
 	define ('__APP_DB_PSWD', "root");
-	define ('__APP_SCHEMA', "velvet_db");
+	define ('__APP_SCHEMA', "technocratz");
 	/******************************************************************/
 	
 	/********************** Mailing Constants ************************/
